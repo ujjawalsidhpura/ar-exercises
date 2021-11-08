@@ -10,3 +10,11 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+Test_Store = Store.create(
+  name: 'Surrey'
+)
+
+puts Test_Store.valid?
+
+puts Test_Store.errors.full_messages
